@@ -1,16 +1,13 @@
+
 /* 
-
-Author: Karla Salamanca Rodriguez 
-
-Date: Feb 14 2024 
-
-File Name: styles.css 
-
-*/ 
+Karla Salamanca Rodriguez 
+Feb 14 2024 
+styles.css */ 
 
 /* CSS Reset */ 
 
-Body, header, nav, main, footer, img, h1, h3{ 
+
+Body, header, nav, main, footer, img, h1, h3 { 
 
     margin: 0; 
 
@@ -22,7 +19,7 @@ Body, header, nav, main, footer, img, h1, h3{
 
 /* Style rules for body and images*/ 
 
-body,{ 
+body { 
 
     background-color: #f6eee4;
    
@@ -31,9 +28,51 @@ body,{
 
 img {
    max-width: 100%;
-display: block;
+   display: block;
 
 }
+
+/* Style rules for mobile viewport*/
+
+mobile {
+   display: block;
+/*is this correct?*/
+
+}
+
+/*Style rules to show mobile class and hide tab-desk class*/
+.tablet-desktop {
+    display: none; 
+/*is this correct?*/
+
+}
+
+/*Style rules for header area*/
+
+mobile, h1, {
+
+padding: 2%;
+text-align: center;
+
+.emblema-one-regular {
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+mobile, h3 {
+/* <uniquifier>: Use a uniquifier for the class name*/
+
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
 
 /* Style rules for navigation area */ 
 
@@ -147,3 +186,4 @@ footer a {
 
 
 }
+
