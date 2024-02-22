@@ -1,4 +1,5 @@
 
+
 /* 
 Karla Salamanca Rodriguez 
 Feb 14 2024 
@@ -34,7 +35,7 @@ img {
 
 /* Style rules for mobile viewport*/
 
-mobile {
+.mobile {
    display: block;
 /*is this correct?*/
 
@@ -61,7 +62,6 @@ text-align: center;
 }
 
 mobile, h3 {
-/* <uniquifier>: Use a uniquifier for the class name*/
 
 .lora-<uniquifier> {
   font-family: "Lora", serif;
@@ -122,7 +122,11 @@ main {
 
     padding: 2%; 
     font-family: Verdana, Arial, sans-serif; 
-
+    .lora-<uniquifier> {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 } 
 
 main p { 
@@ -186,4 +190,5 @@ footer a {
 
 
 }
+
 
