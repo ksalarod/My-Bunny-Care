@@ -1,5 +1,4 @@
 
-
 /* 
 Karla Salamanca Rodriguez 
 Feb 14 2024 
@@ -7,6 +6,10 @@ styles.css */
 
 /* CSS Reset */ 
 
+ul {
+
+
+}
 
 Body, header, nav, main, footer, img, h1, h3 { 
 
@@ -50,28 +53,30 @@ img {
 
 /*Style rules for header area*/
 
-mobile, h1, {
+.mobile, h1, h3{
 
-padding: 2%;
-text-align: center;
+    padding: 2%;
+    text-align: center
 
+}
+
+.mobile, h1 {
 .emblema-one-regular {
   font-family: "Emblema One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-mobile, h3 {
+.mobile, h3 {
 
 .lora-<uniquifier> {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
 }
-
-
-
 
 
 /* Style rules for navigation area */ 
@@ -86,7 +91,6 @@ nav ul {
 
     list-style-type: none; 
 
-    margin: 0; 
 
     text-align: center; 
 
@@ -94,8 +98,9 @@ nav ul {
 
 nav li { 
 
-    display: inline-block; 
-
+    display: block;
+    border-top: 0.5px;
+    color: #f6eee4 ;
     font-size: 1.5em; 
     font-family: Geneva, Arial, san-serif;
     font-weight: bold;
@@ -163,8 +168,47 @@ main ul {
 
 } 
 
+.round {
+
+    border-radius: 6px;
+
+}
+
+#info ul {
+
+    margin-left: 10%;
+
+}
+
 #contact {
     text-align: center;
+    padding: 2%;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+.tel-link {
+    background-color: #2a1f14;
+    
+    anchor {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold; 
+    
+    
+    }
+
+}
+
+    
+
+
 }
 
 /* Style rules for footer content */
@@ -190,5 +234,4 @@ footer a {
 
 
 }
-
 
