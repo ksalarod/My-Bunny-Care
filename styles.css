@@ -35,7 +35,7 @@ img {
 
 /* Style rules for mobile viewport*/
 
-mobile {
+.mobile {
    display: block;
 
 }
@@ -48,7 +48,7 @@ mobile {
 
 /*Style rules for header area*/
 
-.mobile, h1, h3{
+mobile, h1, h3{
 
     padding: 2%;
     text-align: right
