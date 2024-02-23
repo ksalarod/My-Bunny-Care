@@ -77,13 +77,13 @@ img {
 
 /* Style rules for navigation area */ 
 
-mobile, nav { 
+nav { 
 
     background-color: #2a1f14; 
 
 } 
 
-mobile, nav ul { 
+nav ul { 
 
     list-style-type: none; 
 
@@ -92,7 +92,7 @@ mobile, nav ul {
 
 } 
 
-mobile, nav li { 
+nav li { 
 
     display: block;
     border-top: 0.5px;
@@ -103,7 +103,7 @@ mobile, nav li {
 
 } 
 
-mobile, nav li a { 
+nav li a { 
 
     display: block; 
 
