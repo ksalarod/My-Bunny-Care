@@ -6,12 +6,9 @@ styles.css */
 
 /* CSS Reset */ 
 
-ul {
 
 
-}
-
-Body, header, nav, main, footer, img, h1, h3 { 
+Body, header, nav, main, footer, img, h1, h3, ul{ 
 
     margin: 0; 
 
@@ -40,14 +37,12 @@ img {
 
 .mobile {
    display: block;
-/*is this correct?*/
 
 }
 
 /*Style rules to show mobile class and hide tab-desk class*/
 .tablet-desktop {
     display: none; 
-/*is this correct?*/
 
 }
 
@@ -65,6 +60,7 @@ img {
   font-family: "Emblema One", system-ui;
   font-weight: 400;
   font-style: normal;
+  }
 }
 
 .mobile, h3 {
@@ -74,7 +70,7 @@ img {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
+    }
 
 }
 
@@ -100,7 +96,7 @@ nav li {
 
     display: block;
     border-top: 0.5px;
-    color: #f6eee4 ;
+    color: #f6eee4;
     font-size: 1.5em; 
     font-family: Geneva, Arial, san-serif;
     font-weight: bold;
@@ -234,4 +230,5 @@ footer a {
 
 
 }
+
 
