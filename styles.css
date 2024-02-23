@@ -65,7 +65,7 @@ img {
 
 .mobile, h3 {
 
-.lora-<uniquifier> {
+.lora {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -77,13 +77,13 @@ img {
 
 /* Style rules for navigation area */ 
 
-nav { 
+mobile, nav { 
 
     background-color: #2a1f14; 
 
 } 
 
-nav ul { 
+mobile, nav ul { 
 
     list-style-type: none; 
 
@@ -92,7 +92,7 @@ nav ul {
 
 } 
 
-nav li { 
+mobile, nav li { 
 
     display: block;
     border-top: 0.5px;
@@ -103,7 +103,7 @@ nav li {
 
 } 
 
-nav li a { 
+mobile, nav li a { 
 
     display: block; 
 
@@ -123,7 +123,7 @@ main {
 
     padding: 2%; 
     font-family: Verdana, Arial, sans-serif; 
-    .lora-<uniquifier> {
+    .lora {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 400;
