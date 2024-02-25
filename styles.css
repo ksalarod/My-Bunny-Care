@@ -48,19 +48,20 @@ img {
 
 /*Style rules for header area*/
 
-.mobile, h1, h3{
+.mobile {
+    h1, h3{
 
     padding: 2%;
     text-align: center;
-
+    }
 }
 
-.mobile, h1 {
-.emblema-one-regular {
+.mobile {
+h1, .emblema-one-regular {
   font-family: "Emblema One", system-ui;
   font-weight: 400;
   font-style: normal;
-}
+    }
 }
 
 .mobile, h3 {
