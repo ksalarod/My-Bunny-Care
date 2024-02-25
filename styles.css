@@ -116,16 +116,15 @@ nav li a {
 
 /* Style rules for main content */ 
 
-main { 
+main, .lora { 
 
     padding: 2%; 
     font-family: Verdana, Arial, sans-serif; 
-    .lora {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    }
+    
 } 
 
 main p { 
