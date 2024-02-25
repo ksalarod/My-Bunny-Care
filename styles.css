@@ -55,8 +55,7 @@ img {
 
 }
 
-.mobile, h1,{
-  emblema-one-regular
+.mobile, h1, .emblema-one-regular {
   font-family: "Emblema One", system-ui;
   font-weight: 400;
   font-style: normal;
