@@ -41,7 +41,7 @@ img {
 }
 
 /*Style rules to show mobile class and hide tab-desk class*/
-.tablet-desktop {
+.tab-desk {
     display: none; 
 
 }
@@ -71,7 +71,7 @@ h1, .emblema-one-regular {
     font-weight: 400;
     font-style: normal;
 
-}
+    }
 }
 
 
