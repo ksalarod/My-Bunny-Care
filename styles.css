@@ -62,14 +62,12 @@ img {
   
 }
 
-.mobile, h3 {
-
-.lora {
+.mobile, h3, .lora {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    }
+
 
 }
 
