@@ -89,7 +89,7 @@ nav ul {
 
 } 
 
-mobile, nav li { 
+nav li { 
 
     display: block;
     border-top: 0.5px;
