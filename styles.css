@@ -75,7 +75,7 @@ img {
 /* Style rules for navigation area */ 
 
 nav { 
-
+    display: block;
     background-color: #2a1f14; 
 
 } 
@@ -83,8 +83,6 @@ nav {
 nav ul { 
 
     list-style-type: none; 
-
-
     text-align: center; 
 
 } 
@@ -103,9 +101,7 @@ nav li {
 nav li a { 
 
     display: block; 
-
     color: #f6eee4; 
-
     padding-top: 0.5em; 
     padding-right: 2em;
     padding-bottom: 0.5;
