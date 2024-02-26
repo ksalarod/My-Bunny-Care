@@ -223,6 +223,38 @@ footer a {
 /* Media Query for Tablet Viewport */
 @media only screen and (min-width: 620px) {
 
+/* Media Query for Large Desktop Viewports */
+@media only screen and (min-width: 1921px)    {
+
+    body {
+        background-color: linear-gradient (#f6eee4, #78593a);
+    }
+
+    #wrapper { 
+        width: 1920px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        mmargin-right: auto;
+    }
+
+    main {
+
+        background-color: #f6ee4;
+    }
+}
+
+    /* Media Query for Print */
+
+    body { 
+        background-color: #FFFFFF;
+        color: #000000;
+
+    }
+        
+        
+
+    
 
 /* Tablet Viewport: Show tab-desk class, hide mobile class */
 .tab-desk {
@@ -233,7 +265,7 @@ footer a {
     display: none;
 }
     
-/* Tablet Viewport: Style rules for nav aread */
+/* Tablet Viewport: Style rules for nav area */
 
 nav li {
     border-top: none;
@@ -270,6 +302,7 @@ nav li a: hover {
     #info ul {
         margin-left: 5%;
     }
+
 
     
 
