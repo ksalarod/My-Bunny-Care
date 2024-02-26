@@ -110,6 +110,8 @@ nav li a {
     padding-bottom: 0.5;
     padding-left: 2em;
     text-decoration: none; 
+    border-right:solid 1px #fff;
+
 
 } 
 
