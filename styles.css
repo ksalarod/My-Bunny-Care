@@ -75,7 +75,7 @@ img {
 /* Style rules for navigation area */ 
 
 nav { 
-    display: block;
+    display: grid;
     background-color: #2a1f14; 
 
 } 
