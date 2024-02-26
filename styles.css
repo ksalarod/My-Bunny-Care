@@ -100,7 +100,7 @@ nav li {
 
 nav li a { 
 
-    display: grid; 
+    display: block; 
     color: #f6eee4; 
     padding-top: 0.5em; 
     padding-right: 2em;
