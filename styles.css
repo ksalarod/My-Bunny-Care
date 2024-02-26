@@ -98,7 +98,6 @@ nav li {
     font-size: 1.5em; 
     font-family: Geneva, Arial, san-serif;
     font-weight: bold;
-    border-right:solid 1px #fff;
 
 
 } 
@@ -112,7 +111,6 @@ nav li a {
     padding-bottom: 0.5;
     padding-left: 2em;
     text-decoration: none; 
-    border-right:solid 1px #fff;
 
 
 } 
