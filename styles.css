@@ -50,7 +50,7 @@ img {
 
 header {
     position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
     backgroung-color: #000;
     height: 190 px;
