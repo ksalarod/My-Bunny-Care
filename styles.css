@@ -218,8 +218,34 @@ footer a {
     color: #f3e6d8;
     text-decoration: none;
 
+}
 
+/* Media Query for Tablet Viewport */
+@media only screen and (min-width: 620px) {
+
+
+/* Tablet Viewport: Show tab-desk class, hide mobile class */
+. tab-desk {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+    
+/* Tablet Viewport: Style rules for nav aread */
+
+nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25 em;
 
 }
+
+nav li a {
+    padding: 0.5em; 
+}
+    
+
 
 
