@@ -75,7 +75,7 @@ img {
 /* Style rules for navigation area */ 
 
 nav { 
-    display: grid;
+    display: block;
     background-color: #2a1f14; 
 
 } 
@@ -89,7 +89,7 @@ nav ul {
 
 nav li { 
 
-    display: block;
+    display: grid;
     border-top: 0.5px;
     color: #f6eee4;
     font-size: 1.5em; 
