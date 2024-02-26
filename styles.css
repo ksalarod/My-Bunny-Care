@@ -178,7 +178,7 @@ main ul {
     
 }
 
-.tel-link, anchor {
+.tel-link, .anchor {
     background-color: #2a1f14;
     padding: 2%;
     width: 80%;
