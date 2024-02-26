@@ -225,7 +225,7 @@ footer a {
 
 
 /* Tablet Viewport: Show tab-desk class, hide mobile class */
-. tab-desk {
+.tab-desk {
     display: block;
 }
 
