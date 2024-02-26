@@ -48,17 +48,6 @@ img {
 
 /*Style rules for header area*/
 
-header {
-    position: -webkit-sticky;
-    position: fixed;
-    top: 0;
-    backgroung-color: #000;
-    height: 190 px;
-}
-
-header img {
-    margin: 0 auto;
-}
 
 
 .mobile, h1, h3 {
