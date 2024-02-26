@@ -56,6 +56,9 @@ header {
     height: 190 px;
 }
 
+header img {
+    margin: 0 auto;
+}
 
 
 .mobile, h1, h3 {
