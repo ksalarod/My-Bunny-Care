@@ -104,7 +104,7 @@ nav li {
 
 nav li a { 
 
-    display: block; 
+    display: inline; 
     color: #f6eee4; 
     padding-top: 0.5em; 
     padding-right: 2em;
