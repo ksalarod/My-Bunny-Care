@@ -89,7 +89,7 @@ nav ul {
 
 nav li { 
 
-    display: grid;
+    display: block;
     border-top: 0.5px;
     color: #f6eee4;
     font-size: 1.5em; 
@@ -100,7 +100,7 @@ nav li {
 
 nav li a { 
 
-    display: block; 
+    display: grid; 
     color: #f6eee4; 
     padding-top: 0.5em; 
     padding-right: 2em;
