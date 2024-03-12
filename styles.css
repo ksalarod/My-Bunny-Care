@@ -177,11 +177,21 @@ aside {
 
 }
 
+figure {
+
+    border: 4px solid #2a1f14;
+    box-shadow: 6px 6px 10px #c5a687;
+    max-width: 400px;
+    margin: 2% auto;
+
+    
+
 #info ul {
 
     margin-left: 10%;
 
 }
+
 
 #contact {
     text-align: center;
