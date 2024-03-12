@@ -282,7 +282,14 @@ footer a {
 
     }
         
-    
+    grid {
+        grid-template-columns: 3;
+    }
+
+    aside {
+        grid-column: 1 / span 4;
+
+    }
 
 /* Tablet Viewport: Show tab-desk class, hide mobile class */
 .tab-desk {
