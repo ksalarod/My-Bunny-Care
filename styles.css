@@ -305,7 +305,14 @@ nav li {
 nav li a {
     padding: 0.5em; 
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr; 
+    grid-gap: 10px;
+
 }
+    
 /* Media Query for Desktop Viewport */
 @media only screen and (min-width: 1000px) {
 
