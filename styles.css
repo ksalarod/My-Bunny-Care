@@ -184,6 +184,15 @@ figure {
     max-width: 400px;
     margin: 2% auto;
 
+}
+
+fig caption {
+
+    padding: 2%
+    border-top: 4px solid #2a1f14;
+
+}
+
     
 
 #info ul {
