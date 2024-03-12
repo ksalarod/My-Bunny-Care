@@ -168,6 +168,15 @@ main ul {
 
 }
 
+aside {
+
+    text-align: center; 
+    font-size: 1.5 em;
+    font-weight: bold;
+    text-shadow: 4px 4px 10px #c5a687;
+
+}
+
 #info ul {
 
     margin-left: 10%;
