@@ -274,7 +274,7 @@ footer a {
     }
 
      .grid {
-        grid-template-columns: 4;
+        grid-template-columns: auto auto auto auto;
     }
 
     aside {
@@ -317,7 +317,7 @@ nav li a {
 /*display two column layout for tablet */
 .grid {
     display: grid;
-    grid-template-columns: 2; 
+    grid-template-columns: auto auto; 
     grid-gap: 10px;
 
 }
@@ -355,7 +355,7 @@ nav li a: hover {
 
 .grid {
 
-    grid-template-columns: 3;
+    grid-template-columns: auto auto auto;
     grid-gap: 30px;
 }
 
@@ -365,7 +365,8 @@ aside {
 
 }
 
-
+}
+}
     
 
     
