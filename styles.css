@@ -251,6 +251,42 @@ footer a {
 /* Media Query for Tablet Viewport */
 @media only screen and (min-width: 620px) {
 
+/* Tablet Viewport: Show tab-desk class, hide mobile class */
+.tab-desk {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+    
+/* Tablet Viewport: Style rules for nav area */
+
+nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25 em;
+
+}
+
+nav li a {
+    padding: 0.5em; 
+}
+/*display two column layout for tablet */
+.grid {
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-gap: 10px;
+
+}
+    
+aside {
+    grid-template-columns: 1 / span 2;
+
+}
+
+}
+    
 /* Media Query for Large Desktop Viewports */
 @media only screen and (min-width: 1921px)    {
 
@@ -290,43 +326,9 @@ footer a {
         color: #000000;
 
     }
-        
+}        
    
 
-/* Tablet Viewport: Show tab-desk class, hide mobile class */
-.tab-desk {
-    display: block;
-}
-
-.mobile {
-    display: none;
-}
-    
-/* Tablet Viewport: Style rules for nav area */
-
-nav li {
-    border-top: none;
-    display: inline-block;
-    font-size: 1.25 em;
-
-}
-
-nav li a {
-    padding: 0.5em; 
-}
-/*display two column layout for tablet */
-.grid {
-    display: grid;
-    grid-template-columns: auto auto; 
-    grid-gap: 10px;
-
-}
-    
-aside {
-    grid-template-columns: 1 / span 2;
-
-}
-    
 /* Media Query for Desktop Viewport */
 @media only screen and (min-width: 1000px) {
 
