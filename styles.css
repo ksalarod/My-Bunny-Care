@@ -188,7 +188,7 @@ figure {
 
 fig caption {
 
-    padding: 2%
+    padding: 2%;
     border-top: 4px solid #2a1f14;
 
 }
@@ -311,12 +311,12 @@ aside {
 
      .grid {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto auto;
     }
 
     aside {
         grid-column: 1 / span 4;
-
+        font-size: 3em;
     }
 }
 
