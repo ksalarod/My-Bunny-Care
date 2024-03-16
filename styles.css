@@ -275,6 +275,7 @@ nav li a {
 /*display two column layout for tablet */
 .grid {
     display: grid;
+    column-count: 2;
     grid-template-columns: auto auto; 
     grid-gap: 10px;
 
@@ -311,6 +312,7 @@ aside {
 
      .grid {
         display: grid;
+        column-count: 4;
         grid-template-columns: auto auto auto auto;
     }
 
@@ -358,6 +360,7 @@ nav li a: hover {
 
 .grid {
     display: grid;
+    coulmn-count: 3;
     grid-template-columns: auto auto auto;
     grid-gap: 30px;
 }
