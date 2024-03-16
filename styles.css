@@ -311,7 +311,7 @@ aside {
 
      .grid {
         display: grid;
-        grid-template-columns: 300px 300px;
+        grid-template-columns: auto auto;
     }
 
     aside {
