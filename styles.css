@@ -310,7 +310,8 @@ aside {
     }
 
      .grid {
-        grid-template-columns: auto auto auto auto;
+        display: grid;
+        grid-template-columns: 300px 300px;
     }
 
     aside {
@@ -356,7 +357,7 @@ nav li a: hover {
     }
 
 .grid {
-
+    display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 30px;
 }
