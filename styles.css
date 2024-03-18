@@ -35,13 +35,14 @@ img {
 
 /* Style rules for mobile viewport*/
 
-.mobile {
+.mobile, mobile-tablet {
    display: block;
 
 }
 
-/*Style rules to show mobile class and hide tab-desk class*/
-.tab-desk {
+/*Old comment: Style rules to show mobile class and hide tab-desk class*/ 
+/*New comment: Desktop Viewport: Show desktop class, hide mobile-tablet class*/
+.tab-desk, .desktop {
     display: none; 
 
 }
@@ -176,6 +177,8 @@ aside {
     text-shadow: 4px 4px 10px #c5a687;
 
 }
+
+
 
 figure {
 
@@ -314,12 +317,12 @@ aside {
         display: grid;
         column-count: 4;
         grid-template-columns: auto auto auto auto;
-    }
+         }
 
     aside {
         grid-column: 1 / span 4;
         font-size: 3em;
-    }
+          }
 }
 
     /* Media Query for Print */
@@ -328,7 +331,7 @@ aside {
         background-color: #FFFFFF;
         color: #000000;
 
-    }
+         }
 }        
    
 
@@ -371,10 +374,38 @@ aside {
 
 }
 
-}
-    
+    /*Style rules for table */
+.table {
+
+    border: 1px solid #2a1f14;
+    border-collapse: collapse;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 
     
+       }
+.caption { 
+
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+         }
+
+.th, .td {
+        
+    border: 1px solid #2a1f14;
+    padding: 1%;
+    
+}
+
+.th odd {
+    background-color: #deccba;
+    
+    
+}
+}
     
 
 
