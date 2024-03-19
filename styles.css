@@ -375,7 +375,7 @@ aside {
 }
 
     /*Style rules for table */
-.table {
+table {
 
     border: 1px solid #2a1f14;
     border-collapse: collapse;
@@ -386,21 +386,21 @@ aside {
 
     
        }
-.caption { 
+caption { 
 
     font-size: 1.5em;
     font-weight: bold;
     padding: 1%;
          }
 
-.th, .td {
+th, td {
         
     border: 1px solid #2a1f14;
     padding: 1%;
     
 }
 
-.th odd {
+th odd {
     background-color: #deccba;
     
     
