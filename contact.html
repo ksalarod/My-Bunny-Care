@@ -59,7 +59,12 @@
            <form class="form-grid"> <!--Form begins here -->
               <!--Nest two fieldsets within the form element. Include a legend for each fieldset-->
               <!--Fieldset legend 1--> 
-              <fieldset>
+              <fieldset> <!--Add the following label and input elements to the first fieldset-->
+                  <!--Insert a label element with the for attribute value fName and include the text, First Name: 
+                  between the label tags. Below the label, insert and input element and specify the type attribute
+                  as text, name attribute as fName, and id attribute as fName. -->
+                  <label for="fName"> First Name:</label>
+                  <input type="text" name="fName" id="fName"></input> 
                     <legend>Contact Information</legend>
               </fieldset> 
               <!--Fieldset legend 2-->
@@ -67,6 +72,7 @@
                     <legend>Additional Information</legend>
               </fieldset> 
            </form>
+           
        </div>
    </main>
 </html>
