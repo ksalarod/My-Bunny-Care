@@ -106,21 +106,20 @@ nav {
     width: 40px;   
     color: #2a1f14; 
 }
-nav ul { 
 
-    list-style-type: none; 
-    text-align: center; 
-
-} 
 
 nav li { 
 
+    /*removed in chapter 10 
     display: block;
-    border-top: 0.5px;
+    border-top: 0.5px;*/
+    /*removed in chapter 10 
     color: #f6eee4;
-    font-size: 1.5em; 
-    font-family: Geneva, Arial, san-serif;
+   font-size: 1.5em; 
+   this was moved to tablet media query: font-family: Geneva, Arial, san-serif;
     font-weight: bold;
+     */
+
 
 
 } 
@@ -284,19 +283,26 @@ footer a {
 .mobile {
     display: none;
 }
-    
+     
 /* Tablet Viewport: Style rules for nav area */
 
 nav li {
     border-top: none;
     display: inline-block;
     font-size: 1.25 em;
-
+    font-family: Geneva, Arial, san-serif;
+    font-weight: bold;
 }
 
 nav li a {
     padding: 0.5em; 
 }
+     nav ul { 
+
+    list-style-type: none; 
+    text-align: center; 
+
+} 
 /*display two column layout for tablet */
 .grid {
     display: grid;
