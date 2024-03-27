@@ -126,13 +126,19 @@ nav li {
 
 nav li a { 
 
+    /* moved to tablet query in chapter 10
     display: block; 
     color: #f6eee4; 
+    */
+    /* removed in chapter 10 
     padding-top: 0.5em; 
     padding-right: 2em;
     padding-bottom: 0.5;
     padding-left: 2em;
+    */
+   /* moved to tabley query in chapter 10
     text-decoration: none; 
+    */ 
 
 
 } 
@@ -296,6 +302,11 @@ nav li {
 
 nav li a {
     padding: 0.5em; 
+    /*moved these style rules in chapter 10 */
+    display: block; 
+    color: #f6eee4; 
+    text-decoration: none; 
+
 }
      nav ul { 
 
