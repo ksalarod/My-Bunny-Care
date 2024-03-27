@@ -43,11 +43,11 @@ img {
 
 /*Old comment: Style rules to show mobile class and hide tab-desk class*/ 
 /*New comment: Desktop Viewport: Show desktop class, hide mobile-tablet class*/
-/*.tab-desk, .desktop {
+#nav-links, .tab-desk, .desktop {
     display: none; 
 
 }
-*/
+
 /*Style rules for header area*/
 
 
