@@ -254,7 +254,18 @@ fig caption {
 
 }
 
+#questions p {   
+    cursor: pointer;
 
+}
+#answer  {  
+    text-align: center;   
+    font-weight: bold;   
+    width: 80%;   
+    margin: 0 auto;
+}
+#answer h2 {   display: none;
+}
 
 /* Style rules for footer content */
 
