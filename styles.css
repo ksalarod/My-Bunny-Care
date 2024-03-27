@@ -40,6 +40,7 @@ img {
 
 }
 
+
 /*Old comment: Style rules to show mobile class and hide tab-desk class*/ 
 /*New comment: Desktop Viewport: Show desktop class, hide mobile-tablet class*/
 /*.tab-desk, .desktop {
@@ -84,6 +85,27 @@ nav {
 
 } 
 
+.mobile-nav a {   
+    color: #fff;   
+    text-align: center;    
+    font-size: 2em;   
+    text-decoration: none;   
+    padding: 3%;   
+    display: block;
+}
+.mobile-nav a.nav-icon {  
+    display: block;   
+    position: absolute;   
+    left: 0;   
+    top: 0;   
+    color: #f6eee4;   
+    padding: 2%;
+}
+.nav-icon div {   
+    height: 40px;   
+    width: 40px;   
+    color: #2a1f14; 
+}
 nav ul { 
 
     list-style-type: none; 
