@@ -30,3 +30,6 @@ var heading = document.querySelector("#answer h2");
     
     answer.textContent = "No. This is a myth. The parents will retrieve the baby bird and place it back in its nest. If the parents do not return, contact us.";
    }
+//Function to display the fourth answerfunction ans4() {  
+heading.style.display = "block";
+answer.textContent = "We need volunteers to help feed animals, care for animals, and clean animal pens. We also accept donations.";}
