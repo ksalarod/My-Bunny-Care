@@ -28,4 +28,5 @@ var heading = document.querySelector("#answer h2");
     //Function to display the third answerfunction ans3() {   
     heading.style.display = "block";
     
-    answer.textContent = "No. This is a myth. The parents will retrieve the baby bird and place it back in its nest. If the parents do not return, contact us."
+    answer.textContent = "No. This is a myth. The parents will retrieve the baby bird and place it back in its nest. If the parents do not return, contact us.";
+   }
